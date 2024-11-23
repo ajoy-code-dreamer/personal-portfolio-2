@@ -4,8 +4,8 @@
 /* ============ css variables ============= */
 :root {
   /* === font family === */
-  --oswald-font: "Oswald", sans-serif;
-  --barlow-font: "Barlow Condensed", sans-serif;
+  --raleway-font: "Raleway", sans-serif;
+  --montserrat-font: "Montserrat", sans-serif;
   /* === font family === */
   /* === font weight === */
   --light-weight: 300;
@@ -18,10 +18,11 @@
   /* === colors === */
   --white-clr: #fff;
   --black-clr: #000;
-  --primary-clr: #ff4655;
-  --primary-bg-clr: #121212;
-  --secondary-bg-clr: #191919;
-  --secondary-text-clr: #dddddd;
+  --primary-bg-clr: #f05d7b;
+  --secondary-bg-clr: #cecece;
+  --primary-text-clr: #222;
+  --secondary-text-clr: #838383;
+  --transparent-clr: transparent;
   /* === colors === */
   /* === method === */
   --transition: all 0.3s linear;
@@ -64,7 +65,71 @@ img {
   vertical-align: middle;
 }
 .container {
-  max-width: 1320px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 /* ============= common css end here ================ */
+
+/* ================ navbar css start here ================= */
+nav {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #f9fafc;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.nav_wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+}
+.brand_logo {
+  max-width: 137px;
+  max-height: 26px;
+}
+.nav_menu_wrapper ul {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 46px;
+}
+.nav_link {
+  color: var(--secondary-text-clr);
+  font-family: var(--montserrat-font);
+  font-size: 16px;
+  font-weight: var(--semi-bold-weight);
+  line-height: normal;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.nav_link:hover {
+  color: #8671fc;
+}
+/* ================ navbar css end here ================= */
+
+/* =============== section css start here ================= */
+/* =============== section css end here ================= */
+
+/* =============== section css start here ================= */
+/* =============== section css end here ================= */
+
+/* =============== section css start here ================= */
+/* =============== section css end here ================= */
+
+/* =============== section css start here ================= */
+/* =============== section css end here ================= */
+
+/* =============== section css start here ================= */
+/* =============== section css end here ================= */
+
+/* =============== section css start here ================= */
+/* =============== section css end here ================= */
+
+/* =============== section css start here ================= */
+/* =============== section css end here ================= */
+
+/* =============== section css start here ================= */
+/* =============== section css end here ================= */
