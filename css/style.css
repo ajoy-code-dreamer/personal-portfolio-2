@@ -446,7 +446,7 @@ nav {
 }
 .portfolio_item_wrapper {
   display: grid;
-  grid-template: repeat(3, auto) / repeat(3, auto);
+  grid-template: repeat(2, auto) / repeat(3, auto);
   gap: 30px;
   align-items: center;
   justify-content: center;
@@ -454,12 +454,97 @@ nav {
 .portfolio_item {
   width: 370px;
   height: 344px;
-  background-color: #cecece;
+  background-color: var(--secondary-bg-clr);
 }
 /* =============== portfolio section css end here ================= */
 
-/* =============== section css start here ================= */
-/* =============== section css end here ================= */
+/* =============== testimonials section css start here ================= */
+#testimonials {
+  padding-top: 150px;
+}
+.testimonials_item_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  gap: 150px;
+}
+.testimonial_item_arrows_wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+}
+.testimonials_arrow {
+  width: 70px;
+  height: 70px;
+  font-size: 16px;
+  line-height: 70px;
+  text-align: center;
+  color: #474747;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+  cursor: pointer;
+}
+.testimonials_arrow:hover {
+  background-color: #8671fc;
+  color: var(--white-clr);
+}
+.testimonials_item:nth-child(2),
+.testimonials_item:nth-child(3) {
+  width: 280px;
+}
+.testimonials_item:nth-child(2) {
+  margin-right: 5px;
+}
+.testimonials_section_details {
+  padding: 25px 0 100px;
+}
+.testimonials_section_details,
+.testimonials_item_details {
+  color: var(--secondary-text-clr);
+  font-family: var(--raleway-font);
+  font-size: 16px;
+  font-weight: var(--regular-weight);
+  line-height: 26px;
+  letter-spacing: 0.2px;
+}
+.testimonials_item_details {
+  padding: 30px 0 56px;
+}
+.testimonials_image {
+  width: 184px;
+  height: 184px;
+  border: 14px solid var(--white-clr);
+  background-color: var(--secondary-bg-clr);
+  position: relative;
+}
+.testimonials_image_icon {
+  position: absolute;
+  left: 20px;
+  bottom: -8px;
+}
+.testimonials_user_name {
+  color: var(--primary-text-clr);
+  font-family: var(--raleway-font);
+  font-size: 18px;
+  font-weight: var(--bold-weight);
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+.testimonials_user_designation {
+  color: var(--secondary-text-clr);
+  font-family: var(--montserrat-font);
+  font-size: 14px;
+  font-weight: var(--semi-bold-weight);
+  line-height: 19px;
+  letter-spacing: 0.3px;
+}
+
+/* =============== testimonials section css end here ================= */
 
 /* =============== section css start here ================= */
 /* =============== section css end here ================= */
