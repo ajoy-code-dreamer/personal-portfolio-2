@@ -570,5 +570,78 @@ nav {
 }
 /* =============== branding section css end here ================= */
 
-/* =============== section css start here ================= */
-/* =============== section css end here ================= */
+/* =============== footer section css start here ================= */
+footer {
+  background-color: var(--primary-bg-clr);
+  padding: 100px 0 40px;
+  position: relative;
+  overflow: hidden;
+}
+.footer_content_wrapper {
+  text-align: center;
+  position: relative;
+  z-index: 11;
+}
+.footer_section_sub_heading {
+  color: var(--white-clr);
+  text-align: center;
+}
+.footer_section_heading {
+  color: var(--white-clr);
+  text-align: center;
+  max-width: 421px;
+  margin: 0 auto;
+}
+
+.footer_btn {
+  margin: 50px 0;
+  padding: 20px 49px;
+  color: var(--white-clr);
+  font-family: var(--raleway-font);
+  font-size: 16px;
+  font-weight: var(--bold-weight);
+  line-height: normal;
+  text-transform: uppercase;
+  border-radius: 30px;
+  background-color: #8671fc;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border: 1px solid #8671fc;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.footer_btn:hover {
+  background-color: var(--transparent-clr);
+  border-color: var(--white-clr);
+}
+.footer_copyright_wrapper {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  z-index: 11;
+}
+.footer_logo {
+  margin: 50px 0 30px;
+}
+.copyright_text {
+  text-align: center;
+  color: var(--white-clr);
+  font-family: var(--raleway-font);
+  font-size: 16px;
+  font-weight: var(--regular-weight);
+  line-height: 26px;
+  letter-spacing: 0.2px;
+}
+footer .section_shape_1 {
+  top: -234px;
+  left: -71px;
+}
+footer .section_shape_1 {
+  bottom: -36px;
+  right: -98px;
+}
+/* =============== footer section css end here ================= */
