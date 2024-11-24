@@ -546,11 +546,29 @@ nav {
 
 /* =============== testimonials section css end here ================= */
 
-/* =============== section css start here ================= */
-/* =============== section css end here ================= */
-
-/* =============== section css start here ================= */
-/* =============== section css end here ================= */
+/* =============== branding section css start here ================= */
+#branding {
+  padding: 100px 0;
+  background-color: #fcfcff;
+}
+.branding_item_wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.branding_item {
+  width: 162px;
+  height: 100px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.branding_item img {
+  width: 100%;
+  height: 100%;
+}
+/* =============== branding section css end here ================= */
 
 /* =============== section css start here ================= */
 /* =============== section css end here ================= */
