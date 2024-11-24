@@ -87,7 +87,23 @@ img {
 .common_btn:hover .btn_icon {
   margin-left: 27px;
 }
-
+.common_section_sub_heading,
+.common_section_heading {
+  color: var(--primary-text-clr);
+  font-family: var(--raleway-font);
+  font-weight: var(--bold-weight);
+}
+.common_section_sub_heading {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.common_section_heading {
+  font-size: 36px;
+  line-height: normal;
+  letter-spacing: 0.3px;
+}
 /* ============= common css end here ================ */
 
 /* ================ navbar css start here ================= */
@@ -324,26 +340,14 @@ nav {
 /* =============== skills section css start here ================= */
 #skills {
   padding-top: 150px;
-  border-color: #fcfcff;
+  background-color: #f2f2f2;
 }
 .skills_section_heading_wrapper {
-  color: var(--primary-text-clr);
-  text-align: center;
-  font-family: var(--raleway-font);
-  font-weight: var(--bold-weight);
   margin-bottom: 70px;
+  text-align: center;
 }
 .skills_section_sub_heading {
-  font-size: 18px;
-  line-height: 26px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
   margin-bottom: 20px;
-}
-.skills_section_heading {
-  font-size: 36px;
-  line-height: normal;
-  letter-spacing: 0.3px;
 }
 .skills_item_wrapper {
   display: grid;
@@ -361,6 +365,7 @@ nav {
   -moz-transition: var(--transition);
   -ms-transition: var(--transition);
   -o-transition: var(--transition);
+  border: 1px solid rgba(71, 71, 71, 0.1);
 }
 .skills_item_heading {
   color: var(--primary-text-clr);
@@ -392,6 +397,7 @@ nav {
 }
 .skills_item:hover {
   background-color: var(--primary-bg-clr);
+  box-shadow: 0px 30px 25px 0px rgba(0, 0, 0, 0.1);
 }
 .skills_item:hover .skills_item_heading,
 .skills_item:hover .skills_item_details,
@@ -400,8 +406,57 @@ nav {
 }
 /* =============== skills section css end here ================= */
 
-/* =============== section css start here ================= */
-/* =============== section css end here ================= */
+/* =============== portfolio section css start here ================= */
+#portfolio {
+  padding-top: 150px;
+  background-color: #f2f2f2;
+}
+.portfolio_section_hading_wrapper {
+  text-align: center;
+}
+.common_section_sub_heading {
+  margin-bottom: 20px;
+}
+.portfolio_section_heading {
+  margin-bottom: 40px;
+}
+.portfolio_item_list_wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  margin-bottom: 69px;
+}
+.portfolio_item_list_wrapper li {
+  color: var(--secondary-text-clr);
+  font-family: var(--montserrat-font);
+  font-size: 16px;
+  font-weight: var(--semi-bold-weight);
+  line-height: normal;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+  cursor: pointer;
+}
+.portfolio_item_list_wrapper li:hover {
+  color: #8671fc;
+}
+.portfolio_item_wrapper {
+  display: grid;
+  grid-template: repeat(3, auto) / repeat(3, auto);
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio_item {
+  width: 370px;
+  height: 344px;
+  background-color: #cecece;
+}
+/* =============== portfolio section css end here ================= */
 
 /* =============== section css start here ================= */
 /* =============== section css end here ================= */
